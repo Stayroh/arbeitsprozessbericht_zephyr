@@ -1,0 +1,15 @@
+Arbeitsprozessbericht des Seminarprojektes Zephyr von Jakob Allweiss
+
+26.1.2026 --
+-- Installation des Betriebssystem Raspbian auf den Raspberry Pi 4 und einrichtung von SSH und Docker.
+-- Erstellen PostgreSQL + TimescaleDB als Docker Container und Einrichtung nach Layout von Benedikt Z.
+
+29.1.2026 --
+-- Applikation "zephyr_api" welche als API-Backend dient und um Daten aus der Datenbank für das Frontend als RESTFull API bereit zu stellen.
+-- Idee Designs für ein Frontend mit KI.
+-- Temporäres Bereitstellen der API über air.allweiss.net für Entwicklungszwecke.
+
+2.2.2026 --
+-- Applikation "zephyr_data_generator" geschrieben in Rust, welche die SQL-DB in regelmäßigen Intervallen mit Zufälligen Sensordaten beschreibt. Grund war der Wunsch Benjamins für den Anfang mehr Demo-Daten zu haben.
+
+-- Einführung einer neuen Methode des API-Backend auf Wunsch von Benjamin um interpolierte, zeitlich uniforme Samples über eine gewisse Zeitspanne zu bekommen.
