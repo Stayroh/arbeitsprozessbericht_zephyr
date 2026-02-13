@@ -13,3 +13,6 @@ Arbeitsprozessbericht des Seminarprojektes Zephyr von Jakob Allweiss
 -- Applikation "zephyr_data_generator" geschrieben in Rust, welche die SQL-DB in regelmäßigen Intervallen mit Zufälligen Sensordaten beschreibt. Grund war der Wunsch Benjamins für den Anfang mehr Demo-Daten zu haben.
 
 -- Einführung einer neuen Methode des API-Backend auf Wunsch von Benjamin um interpolierte, zeitlich uniforme Samples über eine gewisse Zeitspanne zu bekommen.
+
+13.2.2026 --
+-- CORS headers hinzugefügt, damit das Frontend die API erreichen kann und nicht vom Browser davon gehindert wird.
