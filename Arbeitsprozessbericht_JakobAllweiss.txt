@@ -16,3 +16,8 @@ Arbeitsprozessbericht des Seminarprojektes Zephyr von Jakob Allweiss
 
 13.2.2026 --
 -- CORS headers hinzugefügt, damit das Frontend die API erreichen kann und nicht vom Browser davon gehindert wird.
+
+16.3.2026 --
+-- Ip Konfiguration, upload von thread-driver (java) verbindung mit Datenbank mit Benedikt Z.
+
+
