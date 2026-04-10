@@ -16,3 +16,7 @@ Arbeitsprozessbericht des Seminarprojektes Zephyr von Jakob Allweiss
 
 13.2.2026 --
 -- CORS headers hinzugefügt, damit das Frontend die API erreichen kann und nicht vom Browser davon gehindert wird.
+
+10.4.2026 --
+-- Fertigstellung eines Prototypen der Webapplikation. Convertieren in Docker images des Backends. Zusammenführung von nginx routing, webserver, database, api-backend auf privatem Server als docker-compose. Bereitstellung über Cloudflare ermöglicht unter air.allweiss.net
+
