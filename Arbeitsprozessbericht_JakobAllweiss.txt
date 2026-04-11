@@ -1,27 +1,32 @@
 Arbeitsprozessbericht des Seminarprojektes Zephyr von Jakob Allweiss
 
 26.1.2026 --
--- Installation des Betriebssystem Raspbian auf den Raspberry Pi 4 und einrichtung von SSH und Docker.
--- Erstellen PostgreSQL + TimescaleDB als Docker Container und Einrichtung nach Layout von Benedikt Z.
+-- Installation des Betriebssystem Raspbian auf den Raspberry Pi 4 und einrichtung von SSH und Docker. (4 Stunden)
+-- Erstellen PostgreSQL + TimescaleDB als Docker Container und Einrichtung nach Layout von Benedikt Z. (1 Stunde)
 
 29.1.2026 --
--- Applikation "zephyr_api" welche als API-Backend dient und um Daten aus der Datenbank für das Frontend als RESTFull API bereit zu stellen.
--- Idee Designs für ein Frontend mit KI.
--- Temporäres Bereitstellen der API über air.allweiss.net für Entwicklungszwecke.
+-- Applikation "zephyr_api" welche als API-Backend dient und um Daten aus der Datenbank für das Frontend als RESTFull API bereit zu stellen. (3 Stunden)
+-- Idee Designs für ein Frontend mit KI. (1 Stunde)
+-- Temporäres Bereitstellen der API über air.allweiss.net für Entwicklungszwecke. (0.5 Stunden)
 
 2.2.2026 --
--- Applikation "zephyr_data_generator" geschrieben in Rust, welche die SQL-DB in regelmäßigen Intervallen mit Zufälligen Sensordaten beschreibt. Grund war der Wunsch Benjamins für den Anfang mehr Demo-Daten zu haben.
+-- Applikation "zephyr_data_generator" geschrieben in Rust, welche die SQL-DB in regelmäßigen Intervallen mit Zufälligen Sensordaten beschreibt. Grund war der Wunsch Benjamins für den Anfang mehr Demo-Daten zu haben. (0.5 Stunde)
 
--- Einführung einer neuen Methode des API-Backend auf Wunsch von Benjamin um interpolierte, zeitlich uniforme Samples über eine gewisse Zeitspanne zu bekommen.
+-- Einführung einer neuen Methode des API-Backend auf Wunsch von Benjamin um interpolierte, zeitlich uniforme Samples über eine gewisse Zeitspanne zu bekommen. (0.5 Stunden)
 
 13.2.2026 --
--- CORS headers hinzugefügt, damit das Frontend die API erreichen kann und nicht vom Browser davon gehindert wird.
+-- CORS headers hinzugefügt, damit das Frontend die API erreichen kann und nicht vom Browser davon gehindert wird. (1 Stunde)
 
 16.3.2026 --
--- Ip Konfiguration, upload von thread-driver (java) verbindung mit Datenbank mit Benedikt Z.
-
-
+-- Ip Konfiguration, upload von thread-driver (java) verbindung mit Datenbank mit Benedikt Z. (1.5 Stunden)
 
 10.4.2026 --
--- Fertigstellung eines Prototypen der Webapplikation. Convertieren in Docker images des Backends. Zusammenführung von nginx routing, webserver, database, api-backend auf privatem Server als docker-compose. Bereitstellung über Cloudflare ermöglicht unter air.allweiss.net
+-- Fertigstellung eines Prototypen der Webapplikation. Convertieren in Docker images des Backends. Zusammenführung von nginx routing, webserver, database, api-backend auf privatem Server als docker-compose. Bereitstellung über Cloudflare ermöglicht unter air.allweiss.net (4 Stunden)
+
+11.4.2026 --
+-- Integrierung von Analytic-Tools im Frontend um Benutzerverhalten zu analysieren. GA4 von Google Analytics (2 Stunden)
+
+
+Gesamtzeitaufwand: ca. 19 Stunden (Exklusiv der Planungs-, Recherchier- und Überlegungszeit; Exklusiv der Seminarunterichtszeit)
+
 
